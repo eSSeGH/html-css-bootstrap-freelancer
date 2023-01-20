@@ -50,6 +50,22 @@ ABOUT
 }
 
 /**********
+CONTACT
+***********/
+
+.contact {
+    padding: 90px 0 50px;
+}
+
+.contact .col-12 {
+    background-color: white!important; 
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid grey!important;
+}
+
+/**********
 DEBUG
 ***********/
 
