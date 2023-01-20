@@ -22,10 +22,12 @@ HERO
     background-color: var(--green-acua);
 }
 
-.debug .hero-card {
-    background-color: aqua;
-    height: 464px;
-    width: 60%;
+/**********
+PORTFOLIO
+***********/
+
+.portfolio {
+    padding:  85px;
 }
 
 /**********
@@ -40,4 +42,20 @@ DEBUG
 .debug .header-col {
     width: 200px;
     background-color: orange;
+}
+
+.debug .hero-card {
+    background-color: aqua;
+    height: 464px;
+    width: 60%;
+}
+
+.debug .portfolio-card {
+    background-color: greenyellow;
+    height: 200px;
+}
+
+.debug .col-12.text-center {
+    background-color: white;
+    height: auto;
 }
