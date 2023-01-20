@@ -4,19 +4,28 @@
     --blue-footer: #3A546D;
 }
 
-[class^="col"] {
-    background-color: red;
-    height: 50px;
-}
-
-
 /**********
- HEADER 
+HEADER 
 ***********/
 
 .header1 {
     background-color: var(--blue-header);
     height: 90px;
+}
+
+/**********
+HERO
+***********/
+
+.hero {
+    padding: 62px;
+    background-color: var(--green-acua);
+}
+
+.debug .hero-card {
+    background-color: aqua;
+    height: 464px;
+    width: 60%;
 }
 
 /**********
