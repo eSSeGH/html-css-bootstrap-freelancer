@@ -1,0 +1,34 @@
+:root {
+    --blue-header: #425161;
+    --green-acua: #1ABC9C;
+    --blue-footer: #3A546D;
+}
+
+[class^="col"] {
+    background-color: red;
+    height: 50px;
+}
+
+
+/**********
+ HEADER 
+***********/
+
+.header1 {
+    background-color: var(--blue-header);
+    height: 90px;
+}
+
+/**********
+DEBUG
+***********/
+
+.debug [class^="col"] {
+    background-color: red;
+    height: 50px;
+}
+
+.debug .header-col {
+    width: 200px;
+    background-color: orange;
+}
