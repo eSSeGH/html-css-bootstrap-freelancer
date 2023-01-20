@@ -31,6 +31,25 @@ PORTFOLIO
 }
 
 /**********
+ABOUT
+***********/
+
+.my-container1 {
+    width: 60%;
+}
+
+.about {
+    background-color: var(--green-acua);
+    padding: 80px 0 50px;
+}
+
+.debug .about-card {
+    background-color: blue;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/**********
 DEBUG
 ***********/
 
@@ -58,4 +77,9 @@ DEBUG
 .debug .col-12.text-center {
     background-color: white;
     height: auto;
+}
+
+.debug .about-card {
+    height: 80px;
+    background-color: white;
 }
