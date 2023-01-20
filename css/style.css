@@ -4,6 +4,12 @@
     --blue-footer: #3A546D;
 }
 
+ul,
+ol,
+menu {
+    list-style-type: none;
+}
+
 /**********
 HEADER 
 ***********/
@@ -66,6 +72,31 @@ CONTACT
 }
 
 /**********
+FOOTER 1
+***********/
+
+.footer1 {
+    color: white;
+    padding: 90px 0;
+    background-color: var(--blue-footer);
+}
+
+.footer1-card {
+    height: 100%;
+}
+
+/**********
+FOOTER 2
+***********/
+
+.footer2 {
+    color: white;
+    padding: 50px 0;
+    background-color: var(--blue-header);
+}
+
+
+/**********
 DEBUG
 ***********/
 
@@ -98,4 +129,8 @@ DEBUG
 .debug .about-card {
     height: 80px;
     background-color: white;
+}
+
+.debug .footer1-card {
+    border: 1px solid black;
 }
