@@ -167,15 +167,25 @@ CONTACT
 ***********/
 
 .contact {
-    padding: 90px 0 50px;
+   color: black;
 }
 
-.contact .col-12 {
-    background-color: white!important; 
+.contact .black-fret::after {
+    background-color: white;
 }
 
-.border-bottom-grey {
-    border-bottom: 1px solid grey!important;
+.my-text-input {
+    border-bottom: 2px solid grey !important;
+    border-style: none;
+    line-height: 2.5rem;
+}
+
+.my-text-input textarea {
+    line-height: 1rem;
+}
+
+form .btn {
+    background-color: var(--green-acua);
 }
 
 /**********
