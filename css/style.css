@@ -15,8 +15,56 @@ a {
     text-decoration: none;
 }
 
+img,
+figure {
+    max-height: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
 /**********
-CONTAINER 
+TITLES AND TEXTS
+***********/
+
+.white-fret {
+    border: 3px solid white;
+    width: 368px;
+}
+
+.black-fret {
+    border: 3px solid black;
+    width: 368px;
+}
+
+.black-fret::after,
+.white-fret::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f005";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.white-fret::after {
+    color: white;
+}
+
+.black-fret::after {
+    color: black;
+}
+
+.hero .white-fret::after {
+    background-color: var(--green-acua);
+}
+
+
+/**********
+CONTAINER
 ***********/
 
 .my-container1 {
@@ -36,6 +84,8 @@ CONTAINER
 }
 
 
+
+
 /**********
 HEADER 
 ***********/
@@ -50,8 +100,12 @@ HERO
 ***********/
 
 .hero {
-    padding: 62px;
     background-color: var(--green-acua);
+    color: white;
+}
+
+.hero-card figure {
+    height: 278px;
 }
 
 /**********
@@ -122,7 +176,7 @@ FOOTER 2
 DEBUG
 ***********/
 
-.debug [class^="col"] {
+.debug [class^="col"]:not([class^="row"]) {
     background-color: red;
     height: 50px;
 }
@@ -130,12 +184,6 @@ DEBUG
 .debug .header-col {
     width: 200px;
     background-color: orange;
-}
-
-.debug .hero-card {
-    background-color: aqua;
-    height: 464px;
-    width: 60%;
 }
 
 .debug .portfolio-card {
