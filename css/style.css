@@ -12,7 +12,7 @@ menu {
 
 a {
     color: currentColor;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 img,
@@ -194,12 +194,20 @@ FOOTER 1
 
 .footer1 {
     color: white;
-    padding: 90px 0;
     background-color: var(--blue-footer);
 }
 
-.footer1-card {
-    height: 100%;
+.social-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+.footer1 i {
+    color: white;
+    font-size: 25px;
 }
 
 /**********
@@ -242,12 +250,4 @@ MEDIAUERY
         font-size: 1.5rem;
     }
 
-}
-
-/**********
-DEBUG
-***********/
-
-.debug .footer1-card {
-    border: 1px solid black;
 }
