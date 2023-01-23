@@ -83,11 +83,18 @@ CONTAINER
     width: 100%;
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 576px) {
     .my-container1 {
-        width: 990px;
+        width: 490px;
     }
 }
+
+@media all and (min-width: 768px) {
+    .my-container1 {
+        width: 575px;
+    }
+}
+
 
 @media all and (min-width: 992px) {
     .my-container1 {
@@ -95,20 +102,11 @@ CONTAINER
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1200px) {
     .my-container1 {
-        width: 590px;
+        width: 990px;
     }
 }
-
-@media all and (min-width: 576px) {
-    .my-container1 {
-        width: 490px;
-    }
-}
-
-
-
 
 /**********
 HEADER 
@@ -135,10 +133,6 @@ HERO
 /**********
 PORTFOLIO
 ***********/
-
-.portfolio {
-    padding:  85px;
-}
 
 .portfolio-card img {
     border-radius: 20px;
