@@ -24,6 +24,17 @@ figure {
     position: relative;
 }
 
+
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+}
+
+/* sono stato costretto ad aggiungerla poichè evidentemente ualche colonna
+ non prendeva uesta regola di bootstrap e 
+si creava un bug sul margine destro della viewport */
+
 /**********
 TITLES AND TEXTS
 ***********/
