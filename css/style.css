@@ -92,6 +92,7 @@ CONTAINER
 
 .my-container1 {
     width: 100%;
+    padding: 0 15px;
 }
 
 @media all and (min-width: 576px) {
@@ -125,7 +126,14 @@ HEADER
 
 .header1 {
     background-color: var(--blue-header);
-    height: 90px;
+}
+
+.navbar {
+    background-color: var(--blue-header);
+}
+
+.header1 .navbar .nav-link {
+    color: white;
 }
 
 /**********
@@ -134,11 +142,10 @@ HERO
 
 .hero {
     background-color: var(--green-acua);
-    color: white;
 }
 
 .hero-card figure {
-    height: 278px;
+    height: 266px;
 }
 
 /**********
@@ -160,7 +167,6 @@ ABOUT
 
 .about {
     background-color: var(--green-acua);
-    color: white;
 }
 
 .about .white-fret::after {
